@@ -44,7 +44,7 @@ ffmpeg -version
 From Terminal, start the app with its full path:
 
 ```sh
-/Users/shayak159/code/youtube_video_downloader/yt-clipper
+/Users/<you>/code/youtube_video_downloader/yt-clipper
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) in your browser. Keep the Terminal window open while using the app. Press **Control-C** in that window to stop the server.
@@ -54,7 +54,7 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser. Keep t
 Adding the project folder to your `PATH` lets you run `yt-clipper` from any directory. The default macOS shell is zsh. Run:
 
 ```sh
-echo 'export PATH="/Users/shayak159/code/youtube_video_downloader:$PATH"' >> ~/.zshrc
+echo 'export PATH="/Users/<you>/code/youtube_video_downloader:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
@@ -64,7 +64,7 @@ Now you can launch the app by running:
 yt-clipper
 ```
 
-If you moved the project folder, replace `/Users/shayak159/code/youtube_video_downloader` in the command with its new location.
+If you moved the project folder, replace `/Users/<you>/code/youtube_video_downloader` in the command with its new location.
 
 ### Windows
 
